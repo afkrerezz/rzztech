@@ -1,0 +1,21 @@
+/* Esta es una pequeña animacion */
+
+#text {
+    animation-name: rainbow-text;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rainbow-text {
+
+    0% {color: #ac93eb;}
+    25% {color: #4fc1e8;}
+    50% {color: #a0d568;}
+    75% {color: #ffce54;}
+    100% {color: #ed5564;}
+
+}
+
+/* Este codigo es para crear una animacion tipo arcoiris */

@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #1c1c1c; /* Pone un color de fondo al body */
+    display: flex; /* Habilita el diseño "flexbox" */
+    min-height: 100vh; /* Tamaño minimo en "viewport height", permite ocupar todo el tamaño de pantalla si o si */
+    flex-direction: column; /* Pone el diseño de flex, en este caso "columnas" */
+    font-family: Inconsolata; /* Un poquito evidente, no? */
+}
+
+.header__content .menu {
+    background-color: #3c3c3c; /* Un poquito obvio, no? */
+    align-items: center;
+    justify-content: space-between; /* define la distribuicion del browser */
+    display: flex;
+    border-radius: 12px; /* Este es para crear el borde */
+    padding: 12px; /* Define el espacio que rodea a un elemento web */
+    margin: 12px; /* pone un margen en una area */
+}
+
+.header__content p {
+    color: #fefeff; /* Colorines para "p" */
+    font-size: 22px;
+}
+
+.header__content ul {
+    display: flex;
+}
+
+.header__content li {
+    list-style: none; /* Quita el estilo de la lista */
+    margin-right: 20px; /* Espaciado entre items de la lista */
+}
+
+.header__content a {
+    color: #fefeff; /* Le damos un color a link */
+    text-decoration: none; /* Quitamos la decoracion del texto */
+}
+
+.header__content a:hover {
+    color: #ffce54;          /* Se supone que hace una animancion */    
+    transition: all .3s;    
+}
+
+.footer__content footer {
+    background-color: #3c3c3c;
+    color: #fefeff;
+    text-align: center;
+    padding: 10px;
+    margin: 12px;
+    border-radius: 12px;
+}
+
+.footer__content a {
+    color: #fefeff;
+    text-decoration: none;
+}
+
+.footer__content a:hover {
+    color: #ffce54;
+    transition: all .3s;
+}
+
+.main__content {
+    background-color: #3c3c3c;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 20px;
+    color: #fefeff;
+}
